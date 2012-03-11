@@ -1,0 +1,15 @@
+{
+        "name": "earls",
+        "version" : "0.0.1",
+        "repository": { "type": "git", "url": "git://github.com/Enome/earls" },
+        "description": "Tiny library to create a url map",
+        "main": "src",
+        "author": "Geert Pasteels <twitter.com/enome>",
+        "keywords": [ "url", "routing" ],
+        "dependencies": {
+                "underscore": "*"
+        },
+        "devDependencies": {
+                "should": "*"
+        }
+}
