@@ -46,6 +46,8 @@ earls.register('custom', functionMapper);
 earl.custom({}); //Use whatever custom mapping your mapper expects.
 ```
 
+A custom mapper that uses functions and works well with Coffee-Script can be found on: [earls-function-mapper](https://github.com/Enome/earls-function-mapper).
+
 ## Run tests
 
 Tests use mocha and should.
