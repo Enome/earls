@@ -1,6 +1,6 @@
 {
         "name": "earls",
-        "version" : "0.0.1",
+        "version" : "0.0.2",
         "repository": { "type": "git", "url": "git://github.com/Enome/earls" },
         "description": "Tiny library to create a url map",
         "main": "src",

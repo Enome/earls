@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var qs = require('querystring');
 
 module.exports = function(){
   
@@ -41,7 +42,7 @@ module.exports = function(){
 
           };
 
-          url = url.replace(argument, v);
+          url = url.replace(argument, encodeURIComponent(v));
         });
 
       };

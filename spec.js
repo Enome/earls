@@ -77,6 +77,20 @@ describe('Earl', function(){
 
       });
 
+      describe('Arguments with slashes', function(){
+
+        beforeEach( function(){
+          earl.map({
+            'users_products_show': '/users/:userid/products/show/:productid'
+          });
+        });
+
+        it('returns escaped argument', function(){
+          earl.url('users_products_show', { userid: 'geert', productid: 'this/should/be/escaped' }).should.eql('/users/geert/products/show/this%2Fshould%2Fbe%2Fescaped');
+        });
+
+      });
+
     });
 
     describe(':( path' , function(){

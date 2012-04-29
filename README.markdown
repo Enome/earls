@@ -53,5 +53,5 @@ A custom mapper that uses functions and works well with Coffee-Script can be fou
 Tests use mocha and should.
 
 ``` shell
-make unittests
+make test
 ```
