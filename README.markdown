@@ -3,8 +3,7 @@
 ## Tiny url library
 
 ``` js
-var Earls = require('earls').Earls;
-var earls = Earls();
+var earls = require('earls')();
 
 earls.map({
   'products': '/products',
