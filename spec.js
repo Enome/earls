@@ -45,6 +45,25 @@ describe('Earl', function(){
 
   });
 
+  describe('Raw', function(){
+
+    beforeEach( function(){
+
+      earl.map({
+        'products': '/products',
+        'products_show' : '/products/show'
+      });
+
+    });
+
+    it( 'returns the raw', function(){
+
+      earl.raw().should.eql({ products: '/products', products_show: '/products/show' });
+
+    });
+
+  });
+
   describe('Arguments', function(){
 
     describe(':) path', function(){

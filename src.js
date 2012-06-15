@@ -7,6 +7,8 @@ module.exports = function(){
 
   var earl =  {
 
+    raw: function(){ return raw; },
+
     map: function(map){
 
       _.extend( raw, map );
