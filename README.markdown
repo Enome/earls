@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Enome/earls.png)](http://travis-ci.org/Enome/earls)
 # Earls
 
 ## Tiny url library
