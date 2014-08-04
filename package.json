@@ -6,6 +6,7 @@
         "main": "src",
         "author": "Geert Pasteels <twitter.com/enome>",
         "keywords": [ "url", "routing", "mapping" ],
+        "license": "MIT",
         "dependencies": {
                 "underscore": "*"
         },
